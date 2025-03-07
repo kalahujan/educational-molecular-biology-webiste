@@ -1,0 +1,67 @@
+body {
+    background-color: #f8d7da;
+  }
+  
+  .bg-cream {
+    background-color: #d3c494;
+    color: white;
+  }
+
+  hr {
+    height: 1px;
+    background-color: black;
+    border: none;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .font-flashcard{
+    font-size: 20px;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 600px;
+  }
+  
+  .text-primary {
+    color: #0d6efd !important;
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #d3c494;
+    border: 1px solid white;
+  }
+
+  .carousel-indicators .active {
+    background-color: white;
+  }
+
+.ms-1 h1{
+    font-size: 60px;
+    font-weight: 550;
+    color: #FFFF;
+}
+
+footer {
+    background-color: #5C8E51;
+    color: #ffff;
+    }
+    
+    footer img{
+    width: 60px;
+    height: 58px;
+    }
+    
+    li{
+    list-style: none;
+    }
+    
+    .kategori{
+    margin-left: 20%;
+    }

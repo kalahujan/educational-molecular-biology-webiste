@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="tts.css">
+</head>
+
+<body>
+
+    <nav class="navbar ">
+        <div class="container d-flex">
+            <a class="navbar-brand" href="#">
+                <img src="fig/Logo.png" alt="logo" width="40" height="40">
+                <span class="ms-2 fw-bold">MoleCarly</span>
+            </a>
+        </div>
+    </nav>
+    <hr>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="homepage.html">Beranda</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">Akademi</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">DNA & RNA</a></li>
+                  <li><a class="dropdown-item" href="#">Sintesis Protein</a></li>
+                  <li><a class="dropdown-item" href="#">Mutasi Genetik</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="flashcard.html">Flashcard</a></li>
+              <li class="nav-item"><a class="nav-link" href="tts.html">TTS</a></li>
+              <li class="nav-item"><a class="nav-link" href="masukkan.html">Terkait</a></li>
+              <li class="nav-item"><a class="nav-link" href="profil.html">Tentang Kami</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container my-5 p-5 ytt">
+        <div class="row">
+            <h6 id="scoreText">Skor Kamu: 0</h6>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-12">
+                <table class=" tabel">
+                    <tr>
+                        <td class="block"><input class="d1" type="text" maxlength="1"></td>
+                        <td class="block"><input class="d1 t2" type="text" maxlength="1"></td>
+                        <td class="block"><input class="d1" type="text" maxlength="1"></td>
+                        <td class="block"></td>
+                        <td class="block"></td>
+                        <td class="block"></td>
+                        <td class="block"></td>
+                    </tr>
+                    <tr>
+                        <td class="block"></td>
+                        <td class="block"><input class="t2" type="text" maxlength="1"></td>
+                        <td class="block"></td>
+                        <td class="block"></td>
+                        <td class="block"></td>
+                        <td class="block"></td>
+                        <td class="block"></td>
+
+                    </tr>
+                    <tr>
+                        <td class="block"></td>
+                        <td class="block"><input class="t2" type="text" maxlength="1"></td>
+                        <td class="block"></td>
+                        <td class="block"><input class="t3" type="text" maxlength="1"></td>
+                        <td class="block"><input class="t4" type="text" maxlength="1"></td>
+                        <td class="block"></td>
+                        <td class="block"></td>
+                    </tr>
+                    <tr>
+                        <td class="block"></td>
+                        <td class="block"><input class="t2" type="text" maxlength="1"></td>
+                        <td class="block"></td>
+                        <td class="block"><input class="t3" type="text" maxlength="1"></td>
+                        <td class="block"><input class="t4" type="text" maxlength="1"></td>
+                        <td class="block"></td>
+                        <td class="block"></td>
+                    </tr>
+                    <tr>
+                        <td class="block"></td>
+                        <td class="block"><input class="t2" type="text" maxlength="1"></td>
+                        <td class="block"></td>
+                        <td class="block"><input class="t3" type="text" maxlength="1"></td>
+                        <td class="block"><input class="t4" type="text" maxlength="1"></td>
+                        <td class="block"><input class="t5" type="text" maxlength="1"></td>
+                        <td class="block"></td>
+                    </tr>
+                    <tr>
+                        <td class="block"><input class="d2 t1" type="text" maxlength="1"></td>
+                        <td class="block"><input class="t2 d2" type="text" maxlength="1"></td>
+                        <td class="block"><input class="d2 " type="text" maxlength="1"></td>
+                        <td class="block"><input class="d2 t3" type="text" maxlength="1"></td>
+                        <td class="block"><input class="d2 t4" type="text" maxlength="1"></td>
+                        <td class="block"><input class="d2 t5" type="text" maxlength="1"></td>
+                        <td class="block"></td>
+                    </tr>
+                    <tr>
+                        <td class="block"><input class="t1" type="text" maxlength="1"></td>
+                        <td class="block"><input class="t2" type="text" maxlength="1"></td>
+                        <td class="block"></td>
+                        <td class="block"></td>
+                        <td class="block"><input class="t4" type="text" maxlength="1"></td>
+                        <td class="block"><input class="t5" type="text" maxlength="1"></td>
+                        <td class="block"></td>
+                    </tr>
+                    <tr>
+                        <td class="block"><input class="t1" type="text" maxlength="1"></td>
+                        <td class="block"></td>
+                        <td class="block"></td>
+                        <td class="block"></td>
+                        <td class="block"><input class="t4" type="text" maxlength="1"></td>
+                        <td class="block"><input class="t5" type="text" maxlength="1"></td>
+                        <td class="block"></td>
+                    </tr>
+                    <tr>
+                        <td class="block"><input class="t1" type="text" maxlength="1"></td>
+                        <td class="block"></td>
+                        <td class="block"></td>
+                        <td class="block"></td>
+                        <td class="block"></td>
+                        <td class="block"><input class="t5" type="text" maxlength="1"></td>
+                        <td class="block"></td>
+                    </tr>
+                    <tr>
+                        <td class="block"></td>
+                        <td class="block"></td>
+                        <td class="block"><input class="d3" type="text" maxlength="1"></td>
+                        <td class="block"><input class="d3" type="text" maxlength="1"></td>
+                        <td class="block"><input class="d3" type="text" maxlength="1"></td>
+                        <td class="block"><input class="d3 t5" type="text" maxlength="1"></td>
+                        <td class="block"><input class="d3" type="text" maxlength="1"></td>
+                    </tr>
+                    <tr>
+                        <td class="block"></td>
+                        <td class="block"><input class="d4" type="text" maxlength="1"></td>
+                        <td class="block"><input class="d4" type="text" maxlength="1"></td>
+                        <td class="block"><input class="d4" type="text" maxlength="1"></td>
+                        <td class="block"><input class="d4" type="text" maxlength="1"></td>
+                        <td class="block"><input class="d4 t5" type="text" maxlength="1"></td>
+                        <td class="block"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-3">
+                <H5>Mendatar</h5>
+                <ol>
+                    <li class="my-2">"Blueprint" kehidupan (3 huruf) <button type="button"
+                            class="btn btn-light btn-small mx-2 " name="d1">Jawab</button></li>
+                    <li class="my-2">Perubahan dalam urutan DNA (6 huruf) <button type="button"
+                            class="btn btn-light btn-small mx-2" name="d2">Jawab</button></li>
+                    <li class="my-2">Sekumpulan tiga basa nitrogen (5 huruf)<button type="button"
+                            class="btn btn-light btn-small mx-2" name="d3">Jawab</button></li>
+                    <li class="my-2">Perpustakaan lengkap gen (5 huruf)<button type="button"
+                            class="btn btn-light btn-small mx-2" name="d4">Jawab</button></li>
+                </ol>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-3">
+                <h5>Menurun</h5>
+                <ol class="pr-1">
+                    <li class="my-2">RNA duta (4 huruf) <button type="button" class="btn btn-light btn-small mx-2"
+                            name="t1">Jawab</button>
+                    </li>
+                    <li class="my-2">
+                        "Otak" sel (7 huruf) <button type="button" class="btn btn-light btn-small mx-2"
+                            name="t2">Jawab</button>
+                    </li>
+                    <li class="my-2">RNA transfer (4 huruf) <button type="button" class="btn btn-light btn-small mx-2"
+                            name="t3">Jawab</button></li>
+                    <li class="my-2">Bagian dari nukleotida RNA(6 huruf) <button type="button"
+                            class="btn btn-light btn-small mx-2" name="t4">Jawab</button></li>
+                    <li class="my-2">Pabrik protein sel (7 huruf) <button type="button"
+                            class="btn btn-light btn-small mx-2" name="t5">Jawab</button></li>
+                </ol>
+            </div>
+            </div>
+        </div>
+
+        <script src="tts.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"> </script>
+</body>
+
+</html>

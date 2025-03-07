@@ -1,0 +1,62 @@
+section {
+    background-color: #3f30E8;
+    font-family: Arial, sans-serif;
+  }
+  
+  .team-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .em{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .team-section .card {
+    border-bottom: 2px solid #fff;
+  }
+  
+  .social-icons a {
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #17a2b8;
+    font-family: 'Times New Roman';
+  }
+
+  hr {
+    height: 1px;
+    background-color: black;
+    border: none;
+    margin: 0%;
+  }
+
+  .card-line {
+    border: none;
+    height: 2px;
+    background-color: #ffff;
+    color: #ffff;
+    margin:0;
+    width: 100%;
+  }
+
+  footer {
+    background-color: #5C8E51;
+    color: #ffff;
+  }
+  
+  footer img{
+    width: 60px;
+    height: 58px;
+  }
+  footer h3{
+    font-weight: 380;
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  .kategori{
+    margin-left: 20%;
+  }

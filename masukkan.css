@@ -1,0 +1,29 @@
+.card-img-top{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+a{
+  text-decoration: none;
+}
+
+footer {
+    background-color: #5C8E51;
+    color: #ffff;
+  }
+  
+  footer img{
+    width: 60px;
+    height: 58px;
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  .kategori{
+    margin-left: 20%;
+  }
+em{
+font-family: 'Times New Roman', Times, serif;
+}

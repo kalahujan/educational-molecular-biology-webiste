@@ -1,0 +1,37 @@
+table {
+	text-align: center;
+}
+
+td input {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+body{
+	background-image: url('https://i.pinimg.com/736x/2d/67/f9/2d67f9834649b584682ab58606f5a27e.jpg');
+	
+}
+.container{
+	background-color: rgba(255, 255, 255, 0.5);
+	border: none;
+	border-radius: 25px;
+}
+li{
+	font-weight: 600;
+}
+h5{
+	font-weight: 800px;
+	font-size: larger;
+	color: sienna;
+}
+.btn-light{
+	color: black;
+	background-color: rgb(193, 186, 186);
+	border-radius: 60px;
+}
+
+.container {
+	width: 1000px;
+}
